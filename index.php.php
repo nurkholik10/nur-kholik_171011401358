@@ -1,0 +1,48 @@
+<form action="" method="post" action="koneksi.php">
+<link href="proses.php.css" rel="stylesheet" type="text/css">
+
+<table width="371" border="0" align="center">
+  <td colspan="3" align="center">Input Data Pasien Virus Covid 19</td>
+  <tr>
+    <td width="120">Nama</td>
+    <td width="3">:</td>
+    <td width="230"><label for="name"></label>
+    <input type="text" name="name" id="name"></td>
+  </tr>
+  <tr>
+    <td align="left"><p>Jumlah Positif</p></td>
+    <td>:</td>
+    <td><input name="nilai" type="text" id="textfield2"></td>
+  </tr>
+  <tr>
+    <td>Jumlah Dirawat</td>
+    <td>:</td>
+    <td><input type="text" name="nilai" id="textfield3"></td>
+  </tr>
+  <tr>
+    <td>Jumlah Sembuh</td>
+    <td>:</td>
+    <td><input type="text" name="nilai" id="textfield4"></td>
+  </tr>
+  <tr>
+    <td>Jumlah Meninggal</td>
+    <td>:</td>
+    <td><input type="text" name="nilai" id="textfield5"></td>
+  </tr>
+  <tr>
+    <td>Nama Operator</td>
+    <td>:</td>
+    <td><input type="text" name="name" id="name"></td>
+  </tr>
+  <tr>
+    <td>NIM Mahasiswa</td>
+    <td>:</td>
+    <td><input type="text" name="NIM" id="textfield7"></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td><input type="submit" name="button" id="button" value="Proses">
+    <input type="reset" name="button2" id="button2" value="Reset"></td>
+  </tr>
+  </table>
